@@ -36,6 +36,9 @@ set nowrap
 " Will not disable hightlight. To disable use nohl
 set hlsearch
 
+" enable normal mode commandline autocomplete suggestion
+set wildmenu
+
 " Use tab and shift tab to switch between buffers and windows
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprev<CR>
